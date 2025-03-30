@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="../assets/70432923-C0B0-44E2-BDE2-FDDF4F38C229.png" alt="StatelessSquad Logo" width="200"/>
+  <img src="../assets/stateless_round_5.png" alt="StatelessSquad Logo" width="200"/>
   <h1>🚀 StatelessSquad</h1>
   <p><em>Stateless by design, chaotic by nature, resilient by force.</em></p>
-  <img src="../assets/48724329-1848-4752-86A2-9C074CB56A45.png" width="100"/>
-  <img src="../assets/4C3B098B-3B1B-4765-8FE2-7EF19EBCE82E.png" width="100"/>
-  <img src="../assets/81D9F4C7-EEE4-4435-B0D4-9DF4458B8E3D.png" width="100"/>
-  <img src="../assets/8C0C0D98-9D11-4BCA-A8CF-A18B094B6C6B.png" width="100"/>
+  <img src="../assets/stateless_round_1.png" width="100"/>
+  <img src="../assets/stateless_round_2.png" width="100"/>
+  <img src="../assets/stateless_round_3.png" width="100"/>
+  <img src="../assets/stateless_round_4.png" width="100"/>
 </div>
 
 ---
