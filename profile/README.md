@@ -10,11 +10,11 @@
 
 ---
 ## Some of our WIP projects 
-https://ai-renaissance-explorer-map.lovable.app/
-https://app--dev-bitrage-8ce89d0d.base44.app/
-https://commit-pixel-heat.lovable.app/
-https://calcummit.lovable.app/
-https://devbitrage.netlify.app/
+- https://ai-renaissance-explorer-map.lovable.app/
+- https://app--dev-bitrage-8ce89d0d.base44.app/
+- https://commit-pixel-heat.lovable.app/
+- https://calcummit.lovable.app/
+- https://devbitrage.netlify.app/
 
 ## 🧠 About Us
 
