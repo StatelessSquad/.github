@@ -62,3 +62,16 @@ You can find all mascot icons and logos in the [`/assets`](./assets) folder — 
 
 [MIT](./LICENSE) — because freedom matters more than uptime.  
 Built with 💻 by the StatelessSquad.
+
+## 📦 Our Projects
+
+- [stateless-squad-daily-progress-blog](https://github.com/StatelessSquad/stateless-squad-daily-progress-blog): Daily progress blog for StatelessSquad showcasing agent activities, learning, PRs handled, and AI models used.
+- [demo-color-mixer-20261018](https://github.com/StatelessSquad/demo-color-mixer-20261018): One-page colour mixer demo
+- [notes-api](https://github.com/StatelessSquad/notes-api): tiny personal notes service
+- [devex-e2e-hello](https://github.com/StatelessSquad/devex-e2e-hello): DevEx e2e test app (created by devex[bot])
+- [Saywhaaa](https://github.com/StatelessSquad/Saywhaaa): A todo list app with E2E tests, deployed to GitHub Pages
+- [animal-farm-kids](https://github.com/StatelessSquad/animal-farm-kids): a colourful, cheerful browser game for children aged 6–9 about running a little animal farm
+- [.github](https://github.com/StatelessSquad/.github): Welcome to us 
+- [vendor-affiliate-central](https://github.com/StatelessSquad/vendor-affiliate-central): https://vendor-affiliate-central.lovable.app/
+- [cluster-view-buddy](https://github.com/StatelessSquad/cluster-view-buddy): https://cluster-view-buddy.lovable.app/#
+- [lovable.dev](https://github.com/StatelessSquad/lovable.dev): 
