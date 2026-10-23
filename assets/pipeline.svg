@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" role="img" aria-label="The studio pipeline: idea, visual preview, owner approves, build, browser tests, PR and CI, ship to iOS, Android and web">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b0b1e"/>
+      <stop offset="1" stop-color="#13123a"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#fcd34d"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t{font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+      .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .node{animation:pulse 7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes pulse{0%,100%{transform:scale(1)}6%{transform:scale(1.18)}12%{transform:scale(1)}}
+      .dash{stroke-dasharray:6 10;animation:flow 1.2s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-16}}
+    </style>
+  </defs>
+  <rect width="1200" height="230" rx="24" fill="url(#bg)"/>
+  <text x="40" y="44" class="m" font-size="15" letter-spacing="4" fill="#5eead4">// HOW A GAME SHIPS</text>
+  <text x="1160" y="44" text-anchor="end" class="m" font-size="14" fill="#a5b4fc" opacity=".8">one kit · one pipeline · one way of working</text>
+
+  <path id="track" d="M100 120 H1100" fill="none"/>
+  <line x1="100" y1="120" x2="1100" y2="120" stroke="#ffffff" stroke-opacity=".08" stroke-width="6" stroke-linecap="round"/>
+  <line class="dash" x1="100" y1="120" x2="1100" y2="120" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- travelling packet -->
+  <circle r="8" fill="#fff" filter="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+      <mpath href="#track"/>
+    </animateMotion>
+  </circle>
+
+  <g class="t" text-anchor="middle">
+    <g><circle class="node" cx="100" cy="120" r="22" fill="#0b0b1e" stroke="#5eead4" stroke-width="3" style="animation-delay:0s"/><text x="100" y="128" font-size="20">💡</text><text x="100" y="170" font-size="16" font-weight="700" fill="#e0e7ff">Idea</text><text x="100" y="192" font-size="13" fill="#94a3b8">requirements</text></g>
+    <g><circle class="node" cx="267" cy="120" r="22" fill="#0b0b1e" stroke="#67e8f9" stroke-width="3" style="animation-delay:1.17s"/><text x="267" y="128" font-size="20">🎨</text><text x="267" y="170" font-size="16" font-weight="700" fill="#e0e7ff">Preview</text><text x="267" y="192" font-size="13" fill="#94a3b8">visual mock</text></g>
+    <g><circle class="node" cx="433" cy="120" r="22" fill="#0b0b1e" stroke="#93c5fd" stroke-width="3" style="animation-delay:2.33s"/><text x="433" y="128" font-size="20">👍</text><text x="433" y="170" font-size="16" font-weight="700" fill="#e0e7ff">Approve</text><text x="433" y="192" font-size="13" fill="#94a3b8">a human says yes</text></g>
+    <g><circle class="node" cx="600" cy="120" r="22" fill="#0b0b1e" stroke="#a78bfa" stroke-width="3" style="animation-delay:3.5s"/><text x="600" y="128" font-size="20">🤖</text><text x="600" y="170" font-size="16" font-weight="700" fill="#e0e7ff">Build</text><text x="600" y="192" font-size="13" fill="#94a3b8">agents on the kit</text></g>
+    <g><circle class="node" cx="767" cy="120" r="22" fill="#0b0b1e" stroke="#e879f9" stroke-width="3" style="animation-delay:4.67s"/><text x="767" y="128" font-size="20">🧪</text><text x="767" y="170" font-size="16" font-weight="700" fill="#e0e7ff">Test</text><text x="767" y="192" font-size="13" fill="#94a3b8">browser + 60 fps</text></g>
+    <g><circle class="node" cx="933" cy="120" r="22" fill="#0b0b1e" stroke="#f9a8d4" stroke-width="3" style="animation-delay:5.83s"/><text x="933" y="128" font-size="20">🔁</text><text x="933" y="170" font-size="16" font-weight="700" fill="#e0e7ff">PR + CI</text><text x="933" y="192" font-size="13" fill="#94a3b8">review again</text></g>
+    <g><circle class="node" cx="1100" cy="120" r="22" fill="#0b0b1e" stroke="#fcd34d" stroke-width="3" style="animation-delay:6.9s"/><text x="1100" y="128" font-size="20">🚀</text><text x="1100" y="170" font-size="16" font-weight="700" fill="#e0e7ff">Ship</text><text x="1100" y="192" font-size="13" fill="#94a3b8">iOS · Android · web</text></g>
+  </g>
+</svg>

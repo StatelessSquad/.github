@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="Animated aurora wave">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset=".5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <style>
+      .w1{animation:slide 9s linear infinite}
+      .w2{animation:slide 13s linear infinite reverse}
+      @keyframes slide{to{transform:translateX(-600px)}}
+      .t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    </style>
+  </defs>
+  <g class="w1" opacity=".5">
+    <path fill="url(#g)" d="M0 70 Q150 30 300 70 T600 70 T900 70 T1200 70 T1500 70 T1800 70 V120 H0Z"/>
+  </g>
+  <g class="w2" opacity=".35">
+    <path fill="url(#g)" d="M0 85 Q150 115 300 85 T600 85 T900 85 T1200 85 T1500 85 T1800 85 V120 H0Z"/>
+  </g>
+  <text x="600" y="36" text-anchor="middle" class="t" font-size="15" fill="#a78bfa">stateless by design · chaotic by nature · resilient by force</text>
+</svg>

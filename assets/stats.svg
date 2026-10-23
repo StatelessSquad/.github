@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="11 games and counting, 3 platforms each, 60 fps on a slowed phone, 0 ads, accounts or trackers">
+  <defs>
+    <style>
+      .t{font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+      .card{opacity:0;animation:pop .8s cubic-bezier(.2,1.4,.4,1) forwards;transform-box:fill-box;transform-origin:center}
+      @keyframes pop{from{opacity:0;transform:translateY(20px) scale(.9)}to{opacity:1;transform:none}}
+      .shine{animation:shine 5s ease-in-out infinite}
+      @keyframes shine{0%,70%{transform:translateX(-320px)}100%{transform:translateX(320px)}}
+    </style>
+    <linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="c1"><rect x="0" y="10" width="285" height="130" rx="20"/></clipPath>
+    <clipPath id="c2"><rect x="305" y="10" width="285" height="130" rx="20"/></clipPath>
+    <clipPath id="c3"><rect x="610" y="10" width="285" height="130" rx="20"/></clipPath>
+    <clipPath id="c4"><rect x="915" y="10" width="285" height="130" rx="20"/></clipPath>
+  </defs>
+  <g class="t" text-anchor="middle">
+    <g class="card" style="animation-delay:.1s">
+      <rect x="0" y="10" width="285" height="130" rx="20" fill="#0f172a" stroke="#5eead4" stroke-opacity=".5"/>
+      <g clip-path="url(#c1)"><rect class="shine" x="0" y="10" width="140" height="130" fill="url(#sh)"/></g>
+      <text x="142" y="82" font-size="54" font-weight="900" fill="#5eead4">11</text>
+      <text x="142" y="116" font-size="16" font-weight="600" fill="#cbd5e1">games &amp; counting</text>
+    </g>
+    <g class="card" style="animation-delay:.3s">
+      <rect x="305" y="10" width="285" height="130" rx="20" fill="#0f172a" stroke="#a78bfa" stroke-opacity=".5"/>
+      <g clip-path="url(#c2)"><rect class="shine" x="305" y="10" width="140" height="130" fill="url(#sh)" style="animation-delay:.6s"/></g>
+      <text x="447" y="82" font-size="54" font-weight="900" fill="#c4b5fd">3</text>
+      <text x="447" y="116" font-size="16" font-weight="600" fill="#cbd5e1">platforms, one codebase</text>
+    </g>
+    <g class="card" style="animation-delay:.5s">
+      <rect x="610" y="10" width="285" height="130" rx="20" fill="#0f172a" stroke="#f472b6" stroke-opacity=".5"/>
+      <g clip-path="url(#c3)"><rect class="shine" x="610" y="10" width="140" height="130" fill="url(#sh)" style="animation-delay:1.2s"/></g>
+      <text x="752" y="82" font-size="54" font-weight="900" fill="#f9a8d4">60<tspan font-size="26"> fps</tspan></text>
+      <text x="752" y="116" font-size="16" font-weight="600" fill="#cbd5e1">on a phone at 4× CPU slowdown</text>
+    </g>
+    <g class="card" style="animation-delay:.7s">
+      <rect x="915" y="10" width="285" height="130" rx="20" fill="#0f172a" stroke="#fcd34d" stroke-opacity=".5"/>
+      <g clip-path="url(#c4)"><rect class="shine" x="915" y="10" width="140" height="130" fill="url(#sh)" style="animation-delay:1.8s"/></g>
+      <text x="1057" y="82" font-size="54" font-weight="900" fill="#fcd34d">0</text>
+      <text x="1057" y="116" font-size="16" font-weight="600" fill="#cbd5e1">ads · accounts · trackers</text>
+    </g>
+  </g>
+</svg>
