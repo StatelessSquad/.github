@@ -130,7 +130,46 @@ Requirements → visual preview → plan → **a human approves** → build → 
 
 </details>
 
-## 🧪 Open source playground
+## 💚 Open source is our other favourite game
+
+<img src="../assets/opensource.svg" alt="We love open source the same as we love gaming" width="100%"/>
+
+We play open source the way we play games: every week there's a new level to try.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🧪 We try new ideas, in the open
+New engines, new flows, new agent workflows. If it looks fun, we prototype it, measure it, and keep what wins. Our experiments are public, and so are our notes.
+
+</td>
+<td width="50%" valign="top">
+
+#### ⬆️ We live on the latest stack
+Exact pinned versions, Dependabot on every repo, and upgrades soon after they ship. When a better tool lands, we try it straight away.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🤝 We give back upstream
+We build on open source, so we contribute back: bug reports, fixes and PRs to the tools we use, plus our own templates and patterns for anyone to fork.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔁 We change things, on purpose
+New flows get tried, reviewed and shipped, not parked in a backlog. Fail fast, learn faster, then respawn with a better build.
+
+</td>
+</tr>
+</table>
+
+> 🎮 *Open source is a co-op game with no final boss. Patch notes every day, and everyone's invited to the party.*
+
+### 🧪 Open source playground
 
 | Repo | What it is |
 |---|---|
