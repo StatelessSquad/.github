@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="We love open source the same as we love gaming">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a2b"/>
+      <stop offset="0.5" stop-color="#13123a"/>
+      <stop offset="1" stop-color="#1e0b2b"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="0.5" stop-color="#f0abfc"/>
+      <stop offset="1" stop-color="#fcd34d"/>
+      <animate attributeName="x1" values="0;-1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="300" rx="24"/></clipPath>
+    <style>
+      .t{font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+      .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .beat{animation:beat 1.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.22)}30%{transform:scale(1)}45%{transform:scale(1.14)}60%{transform:scale(1)}}
+      .draw{stroke-dasharray:320;stroke-dashoffset:320;animation:draw 6s ease-in-out infinite}
+      @keyframes draw{0%{stroke-dashoffset:320}40%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:-320}}
+      .c{opacity:0;animation:commit 6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes commit{0%{opacity:0;transform:scale(0)}8%{opacity:1;transform:scale(1.3)}14%,85%{opacity:1;transform:scale(1)}100%{opacity:0}}
+      .btn{animation:press 2.4s ease-in-out infinite}
+      @keyframes press{0%,70%,100%{opacity:.55}80%{opacity:1}}
+      .pad{animation:tilt 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes tilt{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg) translateY(-6px)}}
+      .toast{opacity:0;animation:toast 9s ease-in-out infinite}
+      @keyframes toast{0%{opacity:0;transform:translateY(14px)}4%,30%{opacity:1;transform:translateY(0)}34%,100%{opacity:0;transform:translateY(-14px)}}
+      .spark{animation:spark 2s ease-in-out infinite}
+      @keyframes spark{0%,100%{opacity:0}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <!-- left: a git graph that branches, commits and merges back -->
+    <g transform="translate(40 66) scale(.85)" fill="none" stroke-linecap="round">
+      <line x1="0" y1="90" x2="260" y2="90" stroke="#5eead4" stroke-width="5" stroke-opacity=".35"/>
+      <path class="draw" d="M40 90 C70 90 70 30 110 30 H170 C210 30 210 90 240 90" stroke="#f0abfc" stroke-width="5"/>
+      <g stroke="none">
+        <circle cx="40" cy="90" r="11" fill="#5eead4"/>
+        <circle class="c" cx="110" cy="30" r="10" fill="#f0abfc" style="animation-delay:.8s"/>
+        <circle class="c" cx="170" cy="30" r="10" fill="#f0abfc" style="animation-delay:1.4s"/>
+        <circle class="c" cx="240" cy="90" r="13" fill="#fcd34d" style="animation-delay:2.2s" filter="url(#glow)"/>
+      </g>
+      <text x="0" y="140" class="m" font-size="15" fill="#99f6e4" stroke="none">git checkout -b new-idea</text>
+      <text x="0" y="162" class="m" font-size="15" fill="#fde68a" stroke="none">git merge --into main ✓</text>
+    </g>
+
+    <!-- centre: title + beating heart -->
+    <g class="t" text-anchor="middle">
+      <text x="600" y="62" class="m" font-size="15" letter-spacing="5" fill="#5eead4">// TWO THINGS WE CAN'T STOP PLAYING</text>
+      <text x="568" y="150" text-anchor="end" font-size="44" font-weight="900" fill="url(#title)" filter="url(#glow)">open source</text>
+      <g class="beat"><path transform="translate(601 136) scale(1.3)" d="M0 12 C-22 -4 -14 -20 0 -10 C14 -20 22 -4 0 12Z" fill="#f472b6" filter="url(#glow)"/></g>
+      <text x="634" y="150" text-anchor="start" font-size="44" font-weight="900" fill="url(#title)" filter="url(#glow)">gaming</text>
+      <text x="600" y="196" font-size="20" font-weight="600" fill="#e0e7ff">Same loop: try it, break it, learn, level up, ship.</text>
+    </g>
+
+    <!-- right: a gamepad with buttons lighting up -->
+    <g transform="translate(905 70)"><g class="pad">
+      <path d="M40 20 H180 C220 20 240 60 236 110 C232 150 200 160 178 130 L160 108 H60 L42 130 C20 160 -12 150 -16 110 C-20 60 0 20 40 20Z" fill="#1e1b4b" stroke="#a78bfa" stroke-width="3"/>
+      <rect x="34" y="58" width="44" height="14" rx="4" fill="#a5b4fc"/>
+      <rect x="49" y="43" width="14" height="44" rx="4" fill="#a5b4fc"/>
+      <circle class="btn" cx="168" cy="50" r="9" fill="#5eead4"/>
+      <circle class="btn" cx="188" cy="68" r="9" fill="#f472b6" style="animation-delay:.6s"/>
+      <circle class="btn" cx="148" cy="68" r="9" fill="#fcd34d" style="animation-delay:1.2s"/>
+      <circle class="btn" cx="168" cy="86" r="9" fill="#a78bfa" style="animation-delay:1.8s"/>
+      <circle class="spark" cx="236" cy="18" r="3" fill="#fff"/>
+      <circle class="spark" cx="-10" cy="40" r="2.5" fill="#fff" style="animation-delay:1s"/>
+    </g></g>
+
+    <!-- achievement toasts that cycle -->
+    <g class="t" font-size="16" font-weight="700">
+      <g class="toast" style="animation-delay:0s">
+        <rect x="390" y="226" width="420" height="44" rx="22" fill="#000" fill-opacity=".4" stroke="#fcd34d" stroke-opacity=".6"/>
+        <text x="600" y="254" text-anchor="middle" fill="#fde68a">🏆 Achievement unlocked: PR merged upstream</text>
+      </g>
+      <g class="toast" style="animation-delay:3s">
+        <rect x="390" y="226" width="420" height="44" rx="22" fill="#000" fill-opacity=".4" stroke="#5eead4" stroke-opacity=".6"/>
+        <text x="600" y="254" text-anchor="middle" fill="#99f6e4">⬆️ Level up: every dependency on latest</text>
+      </g>
+      <g class="toast" style="animation-delay:6s">
+        <rect x="390" y="226" width="420" height="44" rx="22" fill="#000" fill-opacity=".4" stroke="#f0abfc" stroke-opacity=".6"/>
+        <text x="600" y="254" text-anchor="middle" fill="#f5d0fe">🧪 New world unlocked: a fresh stack to try</text>
+      </g>
+    </g>
+  </g>
+</svg>
