@@ -55,20 +55,22 @@ We love contributors, especially the ones who:
 - Add README jokes
 - Submit PRs at 2AM
 
-> Fork it. Star it. Break it. Improve it.
-> PRs welcome. May the CI gods be ever in your favor.
+> Play it. Star it. Tell us what breaks.
+> Issues welcome. May the CI gods be ever in your favor.
 
 ---
 
 ## 🖼️ Logos & Mascots
 
-You can find all mascot icons and logos in the [`/assets`](./assets) folder — feel free to use them in your project if you’re part of the Squad ⚡
+You can find all mascot icons and logos in the [`/assets`](./assets) folder — for the Squad's own projects only ⚡
 
 ---
 
 ## 📜 License
 
-[MIT](./LICENSE) — because freedom matters more than uptime.
+Proprietary: © 2026 StateLess Squad, all rights reserved ([LICENSE](./LICENSE)).
+Our games, code and art belong to StateLess Squad; the open-source tools we
+build on keep their own licences.
 Built with 💻 by the StatelessSquad.
 
 ---
