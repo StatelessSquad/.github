@@ -31,7 +31,7 @@ Agents write the code, run the tests and open the PRs; a human approves every vi
 </tr>
 </table>
 
-<img src="../assets/stats.svg" alt="13 games and counting · 3 platforms, one codebase · 60 fps at 4× CPU slowdown · 0 ads, accounts or trackers" width="100%"/>
+<img src="../assets/stats.svg" alt="6 games and counting · 3 platforms, one codebase · 60 fps at 4× CPU slowdown · 0 ads, accounts or trackers" width="100%"/>
 
 ## 🆕 Latest from the studio
 
@@ -99,8 +99,8 @@ Agents write the code, run the tests and open the PRs; a human approves every vi
 <a href="https://statelesssquad.github.io/stateless-squad-game-publisher-public/#beta"><img src="https://statelesssquad.github.io/stateless-squad-game-publisher-public/assets/og.png" alt="The StateLess Squad studio page and its Beta Arcade" width="100%"/></a>
 
 **🕹️ [Play a slice: the Beta Arcade](https://statelesssquad.github.io/stateless-squad-game-publisher-public/#beta)** · *Want the rest?*<br/>
-<sub>The opening stages of every game, free, on the studio page. Plus seven more games from the kit: StateLess Merge, Pairs, Wordy, Hopper, Drift, Catch and Lumen.</sub><br/>
-<img src="https://img.shields.io/badge/studio_page-0b0b1e?style=flat-square"/> <img src="https://img.shields.io/badge/13_games-a78bfa?style=flat-square"/> <img src="https://img.shields.io/badge/6_demos-5eead4?style=flat-square"/>
+<sub>The opening stages of every game, free, on the studio page: no download, no account.</sub><br/>
+<img src="https://img.shields.io/badge/studio_page-0b0b1e?style=flat-square"/> <img src="https://img.shields.io/badge/6_games-a78bfa?style=flat-square"/> <img src="https://img.shields.io/badge/6_demos-5eead4?style=flat-square"/>
 </td>
 </tr>
 </table>
