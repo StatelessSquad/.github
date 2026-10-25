@@ -31,11 +31,37 @@ Agents write the code, run the tests and open the PRs; a human approves every vi
 </tr>
 </table>
 
-<img src="../assets/stats.svg" alt="11 games and counting · 3 platforms, one codebase · 60 fps at 4× CPU slowdown · 0 ads, accounts or trackers" width="100%"/>
+<img src="../assets/stats.svg" alt="13 games and counting · 3 platforms, one codebase · 60 fps at 4× CPU slowdown · 0 ads, accounts or trackers" width="100%"/>
+
+## 🆕 Latest from the studio
+
+| | |
+|---|---|
+| 🕹️ **The Beta Arcade is open** | Play the first stages of every game right on the [studio page](https://statelesssquad.github.io/stateless-squad-game-publisher-public/#beta), on a phone or a computer. Clear every demo to complete your Beta Pass. |
+| 🚀 **Slingstar and Snike are out** | A one-tap space game and a worm that grows into a lizard: two new immersive games, each with its own page. |
+| 🔎 **Every page is search-ready** | Structured data, sitemaps with screenshots and trailers, share cards, and an audit that checks every page the way search reads it. |
+| 🧰 **One kit, every game current** | All games run the latest kit (demo builds, search-ready pages), checked in Chromium and WebKit before each merge. |
+| 🌐 **Coming: our own domain** | The studio and every game page move to one address, with the old links redirecting. |
 
 ## 🎮 Out now
 
 <table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://statelesssquad.github.io/slingstar-public/"><img src="https://statelesssquad.github.io/slingstar-public/assets/og.png" alt="Slingstar" width="100%"/></a>
+
+**☄️ [Slingstar](https://statelesssquad.github.io/slingstar-public/)** · *Tap. Sling. Shine.*<br/>
+<sub>A one-tap space game: sling a comet from planet to planet through six glowing galaxies and chain perfect catches into combo fever.</sub><br/>
+<img src="https://img.shields.io/badge/PixiJS-e91e63?style=flat-square"/> <img src="https://img.shields.io/badge/new-fcd34d?style=flat-square"/>
+</td>
+<td width="50%" valign="top">
+<a href="https://statelesssquad.github.io/snike-public/"><img src="https://statelesssquad.github.io/snike-public/assets/og.png" alt="Snike" width="100%"/></a>
+
+**🦎 [Snike](https://statelesssquad.github.io/snike-public/)** · *Eat the light. Grow legs. Bite the dark.*<br/>
+<sub>A worm in the dark eats light and, meal by meal, sheds its skin into a lizard. Steer anywhere, chain combos, dash through the shades.</sub><br/>
+<img src="https://img.shields.io/badge/PixiJS-e91e63?style=flat-square"/> <img src="https://img.shields.io/badge/arcade-5eead4?style=flat-square"/>
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://statelesssquad.github.io/promptstorm-public/"><img src="https://statelesssquad.github.io/promptstorm-public/assets/og.png" alt="Promptstorm" width="100%"/></a>
@@ -69,19 +95,12 @@ Agents write the code, run the tests and open the PRs; a human approves every vi
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://statelesssquad.github.io/snike-public/"><img src="https://statelesssquad.github.io/snike-public/assets/og.png" alt="Snike" width="100%"/></a>
+<td colspan="2" valign="top">
+<a href="https://statelesssquad.github.io/stateless-squad-game-publisher-public/#beta"><img src="https://statelesssquad.github.io/stateless-squad-game-publisher-public/assets/og.png" alt="The StateLess Squad studio page and its Beta Arcade" width="100%"/></a>
 
-**🦎 [Snike](https://statelesssquad.github.io/snike-public/)** · *Eat the light. Grow legs. Bite the dark.*<br/>
-<sub>A worm in the dark eats light and, meal by meal, sheds its skin into a lizard. Steer anywhere, chain combos, dash through the shades.</sub><br/>
-<img src="https://img.shields.io/badge/PixiJS-e91e63?style=flat-square"/> <img src="https://img.shields.io/badge/arcade-5eead4?style=flat-square"/>
-</td>
-<td width="50%" valign="top">
-<a href="https://statelesssquad.github.io/stateless-squad-game-publisher-public/"><img src="https://statelesssquad.github.io/stateless-squad-game-publisher-public/assets/og.png" alt="The StateLess Squad studio page" width="100%"/></a>
-
-**✨ [Seven more, from the kit](https://statelesssquad.github.io/stateless-squad-game-publisher-public/)**<br/>
-<sub>StateLess Merge, Pairs, Wordy, Hopper, Drift, Catch and Lumen: example games that prove every part of the kit. All of them on the studio page.</sub><br/>
-<img src="https://img.shields.io/badge/studio_page-0b0b1e?style=flat-square"/> <img src="https://img.shields.io/badge/11_games-a78bfa?style=flat-square"/>
+**🕹️ [Play a slice: the Beta Arcade](https://statelesssquad.github.io/stateless-squad-game-publisher-public/#beta)** · *Want the rest?*<br/>
+<sub>The opening stages of every game, free, on the studio page. Plus seven more games from the kit: StateLess Merge, Pairs, Wordy, Hopper, Drift, Catch and Lumen.</sub><br/>
+<img src="https://img.shields.io/badge/studio_page-0b0b1e?style=flat-square"/> <img src="https://img.shields.io/badge/13_games-a78bfa?style=flat-square"/> <img src="https://img.shields.io/badge/6_demos-5eead4?style=flat-square"/>
 </td>
 </tr>
 </table>
@@ -130,46 +149,18 @@ Requirements → visual preview → plan → **a human approves** → build → 
 
 </details>
 
-## 💚 Open source is our other favourite game
+## 💚 Built on open source
 
-<img src="../assets/opensource.svg" alt="We love open source the same as we love gaming" width="100%"/>
+Our games are ours: the code, the art and the worlds are **proprietary to
+StateLess Squad**. But we stand on the shoulders of open source (three.js,
+PixiJS, Phaser, Capacitor, Vite, Playwright and many more), so we give back:
+bug reports, fixes and PRs to the tools we use, and we keep their licences
+intact in everything we ship.
 
-We play open source the way we play games: every week there's a new level to try.
+We still try new ideas fast: new engines, new flows, new agent workflows.
+If it looks fun, we prototype it, measure it, and keep what wins.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🧪 We try new ideas, in the open
-New engines, new flows, new agent workflows. If it looks fun, we prototype it, measure it, and keep what wins. Our experiments are public, and so are our notes.
-
-</td>
-<td width="50%" valign="top">
-
-#### ⬆️ We live on the latest stack
-Exact pinned versions, Dependabot on every repo, and upgrades soon after they ship. When a better tool lands, we try it straight away.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🤝 We give back upstream
-We build on open source, so we contribute back: bug reports, fixes and PRs to the tools we use, plus our own templates and patterns for anyone to fork.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🔁 We change things, on purpose
-New flows get tried, reviewed and shipped, not parked in a backlog. Fail fast, learn faster, then respawn with a better build.
-
-</td>
-</tr>
-</table>
-
-> 🎮 *Open source is a co-op game with no final boss. Patch notes every day, and everyone's invited to the party.*
-
-### 🧪 Open source playground
+### 🧪 Playground
 
 | Repo | What it is |
 |---|---|
@@ -178,6 +169,8 @@ New flows get tried, reviewed and shipped, not parked in a backlog. Fail fast, l
 | [`notes-api`](https://github.com/StatelessSquad/notes-api) | 📝 A tiny personal notes service (Python) |
 | [`Saywhaaa`](https://github.com/StatelessSquad/Saywhaaa) | ✅ A todo app with end-to-end tests, deployed to GitHub Pages |
 | [`demo-color-mixer-20261018`](https://github.com/StatelessSquad/demo-color-mixer-20261018) | 🎨 A one-page colour mixer demo |
+
+<sub>Source-visible, not open source: everything here is © StateLess Squad, all rights reserved.</sub>
 
 ## 🛠️ Built with
 
@@ -208,13 +201,13 @@ New flows get tried, reviewed and shipped, not parked in a backlog. Fail fast, l
 <a href="https://github.com/OfirHaim1"><img src="https://github.com/OfirHaim1.png" width="64" height="64" alt="OfirHaim1" style="border-radius:50%"/></a>
 &nbsp;➕&nbsp; a rotating crew of AI agents who never sleep, never take state, and always run the tests.
 
-We love contributors, especially the ones who fix bugs we didn't notice, add README jokes, or submit PRs at 2 AM.
-**Fork it. Star it. Break it. Improve it.** May the CI gods be ever in your favour.
+Found a bug, have an idea, or want to work with us? Open an issue or reach out.
+**Play it. Star it. Tell us what breaks.** May the CI gods be ever in your favour.
 
 <div align="center">
 
 <img src="../assets/footer.svg" alt="" width="100%"/>
 
-<sub>Mascots and logos live in <a href="https://github.com/StatelessSquad/.github/tree/main/assets"><code>/assets</code></a> · MIT, because freedom matters more than uptime · built with 💻 and 🤖 by StateLess Squad</sub>
+<sub>Mascots and logos live in <a href="https://github.com/StatelessSquad/.github/tree/main/assets"><code>/assets</code></a> · © 2026 StateLess Squad · all rights reserved · built with 💻 and 🤖 by StateLess Squad</sub>
 
 </div>
