@@ -1,12 +1,12 @@
 <div align="center">
 
-<a href="https://statelesssquad.github.io/stateless-squad-game-publisher-public/">
+<a href="https://www.statelesssquad.com/">
   <img src="../assets/hero.svg" alt="StateLess Squad: small, bright games for phones and the web" width="100%"/>
 </a>
 
 <br/>
 
-<a href="https://statelesssquad.github.io/stateless-squad-game-publisher-public/"><img src="https://img.shields.io/badge/▶_PLAY_OUR_GAMES-5eead4?style=for-the-badge&labelColor=0b0b1e" alt="Play our games"/></a> <a href="https://statelesssquad.github.io/stateless-squad-daily-progress-blog/"><img src="https://img.shields.io/badge/📓_DAILY_AGENT_LOG-a78bfa?style=for-the-badge&labelColor=0b0b1e" alt="Daily agent log"/></a> <a href="https://github.com/orgs/StatelessSquad/repositories"><img src="https://img.shields.io/badge/⌥_ALL_REPOS-f472b6?style=for-the-badge&labelColor=0b0b1e" alt="All repositories"/></a>
+<a href="https://www.statelesssquad.com/"><img src="https://img.shields.io/badge/▶_PLAY_OUR_GAMES-5eead4?style=for-the-badge&labelColor=0b0b1e" alt="Play our games"/></a> <a href="https://statelesssquad.github.io/stateless-squad-daily-progress-blog/"><img src="https://img.shields.io/badge/📓_DAILY_AGENT_LOG-a78bfa?style=for-the-badge&labelColor=0b0b1e" alt="Daily agent log"/></a> <a href="https://github.com/orgs/StatelessSquad/repositories"><img src="https://img.shields.io/badge/⌥_ALL_REPOS-f472b6?style=for-the-badge&labelColor=0b0b1e" alt="All repositories"/></a>
 
 </div>
 
@@ -37,7 +37,7 @@ Agents write the code, run the tests and open the PRs; a human approves every vi
 
 | | |
 |---|---|
-| 🕹️ **The Beta Arcade is open** | Play the first stages of every game right on the [studio page](https://statelesssquad.github.io/stateless-squad-game-publisher-public/#beta), on a phone or a computer. Clear every demo to complete your Beta Pass. |
+| 🕹️ **The Beta Arcade is open** | Play the first stages of every game right on the [studio page](https://www.statelesssquad.com/#beta), on a phone or a computer. Clear every demo to complete your Beta Pass. |
 | 🚀 **Slingstar and Snike are out** | A one-tap space game and a worm that grows into a lizard: two new immersive games, each with its own page. |
 | 🔎 **Every page is search-ready** | Structured data, sitemaps with screenshots and trailers, share cards, and an audit that checks every page the way search reads it. |
 | 🧰 **One kit, every game current** | All games run the latest kit (demo builds, search-ready pages), checked in Chromium and WebKit before each merge. |
@@ -48,57 +48,57 @@ Agents write the code, run the tests and open the PRs; a human approves every vi
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://statelesssquad.github.io/slingstar-public/"><img src="https://statelesssquad.github.io/slingstar-public/assets/og.png" alt="Slingstar" width="100%"/></a>
+<a href="https://www.statelesssquad.com/slingstar/"><img src="https://www.statelesssquad.com/slingstar/assets/og.png" alt="Slingstar" width="100%"/></a>
 
-**☄️ [Slingstar](https://statelesssquad.github.io/slingstar-public/)** · *Tap. Sling. Shine.*<br/>
+**☄️ [Slingstar](https://www.statelesssquad.com/slingstar/)** · *Tap. Sling. Shine.*<br/>
 <sub>A one-tap space game: sling a comet from planet to planet through six glowing galaxies and chain perfect catches into combo fever.</sub><br/>
 <img src="https://img.shields.io/badge/PixiJS-e91e63?style=flat-square"/> <img src="https://img.shields.io/badge/new-fcd34d?style=flat-square"/>
 </td>
 <td width="50%" valign="top">
-<a href="https://statelesssquad.github.io/snike-public/"><img src="https://statelesssquad.github.io/snike-public/assets/og.png" alt="Snike" width="100%"/></a>
+<a href="https://www.statelesssquad.com/snike/"><img src="https://www.statelesssquad.com/snike/assets/og.png" alt="Snike" width="100%"/></a>
 
-**🦎 [Snike](https://statelesssquad.github.io/snike-public/)** · *Eat the light. Grow legs. Bite the dark.*<br/>
+**🦎 [Snike](https://www.statelesssquad.com/snike/)** · *Eat the light. Grow legs. Bite the dark.*<br/>
 <sub>A worm in the dark eats light and, meal by meal, sheds its skin into a lizard. Steer anywhere, chain combos, dash through the shades.</sub><br/>
 <img src="https://img.shields.io/badge/PixiJS-e91e63?style=flat-square"/> <img src="https://img.shields.io/badge/arcade-5eead4?style=flat-square"/>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://statelesssquad.github.io/promptstorm-public/"><img src="https://statelesssquad.github.io/promptstorm-public/assets/og.png" alt="Promptstorm" width="100%"/></a>
+<a href="https://www.statelesssquad.com/promptstorm/"><img src="https://www.statelesssquad.com/promptstorm/assets/og.png" alt="Promptstorm" width="100%"/></a>
 
-**⚡ [Promptstorm](https://statelesssquad.github.io/promptstorm-public/)** · *Vibe code. Dodge the hype.*<br/>
+**⚡ [Promptstorm](https://www.statelesssquad.com/promptstorm/)** · *Vibe code. Dodge the hype.*<br/>
 <sub>A 3D endless runner: sprint down a neon circuit board through the galaxy, grab AI tokens and dodge whatever the Hype Blimp throws at you.</sub><br/>
 <img src="https://img.shields.io/badge/three.js-000?logo=threedotjs&logoColor=white&style=flat-square"/> <img src="https://img.shields.io/badge/arcade-5eead4?style=flat-square"/>
 </td>
 <td width="50%" valign="top">
-<a href="https://statelesssquad.github.io/aurolith-public/"><img src="https://statelesssquad.github.io/aurolith-public/assets/og.png" alt="Aurolith" width="100%"/></a>
+<a href="https://www.statelesssquad.com/aurolith/"><img src="https://www.statelesssquad.com/aurolith/assets/og.png" alt="Aurolith" width="100%"/></a>
 
-**🌌 [Aurolith](https://statelesssquad.github.io/aurolith-public/)** · *Slice light. Climb to the stars.*<br/>
+**🌌 [Aurolith](https://www.statelesssquad.com/aurolith/)** · *Slice light. Climb to the stars.*<br/>
 <sub>Drop glowing slabs onto a turning tower of light, from dawn through the aurora to the nebula. Miss a little and the overhang shears away.</sub><br/>
 <img src="https://img.shields.io/badge/three.js-000?logo=threedotjs&logoColor=white&style=flat-square"/> <img src="https://img.shields.io/badge/arcade-a78bfa?style=flat-square"/>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://statelesssquad.github.io/word-garden-public/"><img src="https://statelesssquad.github.io/word-garden-public/assets/og.png" alt="Word Garden" width="100%"/></a>
+<a href="https://www.statelesssquad.com/word-garden/"><img src="https://www.statelesssquad.com/word-garden/assets/og.png" alt="Word Garden" width="100%"/></a>
 
-**🌷 [Word Garden](https://statelesssquad.github.io/word-garden-public/)** · *Hear it. Find it. Grow it.*<br/>
+**🌷 [Word Garden](https://www.statelesssquad.com/word-garden/)** · *Hear it. Find it. Grow it.*<br/>
 <sub>English words for kids aged 3 to 7. Hear a word, find its picture, spell it, and watch a garden grow. No timers, no losing.</sub><br/>
 <img src="https://img.shields.io/badge/educational-34d399?style=flat-square"/> <img src="https://img.shields.io/badge/ages_3–7-fcd34d?style=flat-square"/>
 </td>
 <td width="50%" valign="top">
-<a href="https://statelesssquad.github.io/StateLessCube-Public/"><img src="https://statelesssquad.github.io/StateLessCube-Public/assets/og.png" alt="StateLess-Cube" width="100%"/></a>
+<a href="https://www.statelesssquad.com/stateless-cube/"><img src="https://www.statelesssquad.com/stateless-cube/assets/og.png" alt="StateLess-Cube" width="100%"/></a>
 
-**🧊 [StateLess-Cube](https://statelesssquad.github.io/StateLessCube-Public/)** · *Merge. Combo. Climb.*<br/>
+**🧊 [StateLess-Cube](https://www.statelesssquad.com/stateless-cube/)** · *Merge. Combo. Climb.*<br/>
 <sub>A candy-bright 2048 with nine themed worlds, combos, boosters and 1000 levels. The original, and still our quality bar.</sub><br/>
 <img src="https://img.shields.io/badge/puzzle-f472b6?style=flat-square"/> <img src="https://img.shields.io/badge/1000_levels-fcd34d?style=flat-square"/>
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
-<a href="https://statelesssquad.github.io/stateless-squad-game-publisher-public/#beta"><img src="https://statelesssquad.github.io/stateless-squad-game-publisher-public/assets/og.png" alt="The StateLess Squad studio page and its Beta Arcade" width="100%"/></a>
+<a href="https://www.statelesssquad.com/#beta"><img src="https://www.statelesssquad.com/assets/og.png" alt="The StateLess Squad studio page and its Beta Arcade" width="100%"/></a>
 
-**🕹️ [Play a slice: the Beta Arcade](https://statelesssquad.github.io/stateless-squad-game-publisher-public/#beta)** · *Want the rest?*<br/>
+**🕹️ [Play a slice: the Beta Arcade](https://www.statelesssquad.com/#beta)** · *Want the rest?*<br/>
 <sub>The opening stages of every game, free, on the studio page: no download, no account.</sub><br/>
 <img src="https://img.shields.io/badge/studio_page-0b0b1e?style=flat-square"/> <img src="https://img.shields.io/badge/6_games-a78bfa?style=flat-square"/> <img src="https://img.shields.io/badge/6_demos-5eead4?style=flat-square"/>
 </td>
